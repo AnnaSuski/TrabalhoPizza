@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pizzaria Pedido Certo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rosario" />
+    <style>
+        * {
+            font-family: 'Rosario';
+            font-size: 45px;
+            font-weight: 300;
+            background: #FFDC26;
+        }
+
+        #t1 {
+            color: white;
+            background: #FF540E;
+            margin-left: 50px;
+            width: 650px;
+
+        }
+
+        #t1::placeholder {
+            color: white;
+        }
+
+        #t2 {
+            color: white;
+            background: #FF540E;
+            margin-left: 50px;
+            width: 480px;
+        }
+
+        #t3 {
+            color: white;
+            margin-left: 50px;
+
+        }
+
+        .t4 {
+            color: white;
+            background: #FF540E;
+            margin-left: 50px;
+            width: 480px;
+        }
+
+        .t5 {
+            color: white;
+            background: #98130F;
+            margin-right: 50px;
+            width: 480px;
+        }
+
+        div {
+            float: right;
+            margin-right: 35px;
+
+        }
+
+        #fundo {
+            background-color: #FF540E;
+            height: 500px;
+        }
+
+        #div {
+            float: right;
+            margin-right: 50px;
+            margin-bottom: 0px;
+        }
+
+        #div2 {
+            margin-left: 120px;
+        }
+
+        .div3 {
+            margin-right: 35px;
+            margin-top: 35px;
+            margin-left: 35px;
+            float: right;
+            color: white;
+            background: #98130F;
+        }
+
+        .div4 {
+            font-family: 'Rosario';
+            font-size: 35px;
+            font-weight: 300;
+            margin-right: 60px;
+            margin-top: 35px;
+            width: 400px;;
+            float: right;
+            color: white;
+            background: #98130F;
+        }
+
+        #b1 {
+            margin-left: 45%;
+            color: white;
+            background: #FF540E;
+        }
+    </style>
+</head>
+
+<body>
+    <figure id="div">
+        <img src="assets/41-Duo-Gourmet-pizza.jpg" width="500" ; height="500" />
+    </figure>
+    <figure id="div2">
+        <img src="assets/d.png" />
+    </figure>
+    <form>
+        <input type="text" id="t1" maxlength="100" ; placeholder="Nome:" />
+        <p></p>
+        <input type="text" id="t1" maxlength="15" ; placeholder="Telefone:" />
+        <p></p>
+        <input type="text" id="t1" maxlength="100" ; placeholder="Rua:" />
+        <p></p>
+        <div id="fundo">
+            <select class="div3">
+                <option value="sabor" class="t5">Quantidade de sabores</option>
+                <option value="sabor" class="t5">1</option>
+                <option value="sabor" class="t5">2</option>
+            </select>
+            <br>
+            <div class="div4">
+                <input type="checkbox">Queijo   -$36,59<br><br>
+                <input type="checkbox">Frango   -$38,70<br><br>
+                <input type="checkbox">Calabresa  -$39,99<br><br>
+                <input type="checkbox">Vegetariana  -$36,59<br><br>
+            </div>
+        </div>
+        <input type="number" id="t1" ; placeholder="Número:" />
+        <p></p>
+        <input type="text" id="t1" maxlength="50" ; placeholder="Bairro:" />
+        <p></p>
+        <input type="text" id="t1" maxlength="8" ; placeholder="CEP:" />
+        <p></p>
+        <p id="t3">Forma de pagamento:</p>
+        <select id="t2">
+            <option value="pagamento" class="t4">Cartão</option>
+            <option value="pagamento" class="t4">Dinheiro</option>
+            <option value="pagamento" class="t4">Pix</option>
+        </select>
+        <br>
+        <br>
+        <button id="b1">Enviar</button>
+    </form>
+
+</body>
+
+</html>
